@@ -30,16 +30,16 @@ function App() {
     <div
       className={`main-container ${mode === "dark" ? "dark-mode" : "light-mode"}`}
     >
-      <h1>Content here</h1>
-      {/* <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>
-        <FadeIn transitionDuration={700}>
-            <Main/>
-            <Expertise/>
-            <Timeline/>
-            <Project/>
-            <Contact/>
-        </FadeIn>
-        <Footer /> */}
+      <h1>Content Here</h1>
+      <Navigation parentToChild={{ mode }} modeChange={handleModeChange} />
+      <FadeIn transitionDuration={700}>
+        <Main />
+        <Expertise />
+        <Timeline />
+        <Project />
+        <Contact />
+      </FadeIn>
+      <Footer />
     </div>
   );
 }
